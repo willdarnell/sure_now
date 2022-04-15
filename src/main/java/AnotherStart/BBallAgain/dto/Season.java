@@ -1,4 +1,4 @@
-package AnotherStart.BBallAgain;
+package AnotherStart.BBallAgain.dto;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

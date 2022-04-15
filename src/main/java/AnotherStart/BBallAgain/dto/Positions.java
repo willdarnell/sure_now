@@ -1,4 +1,4 @@
-package AnotherStart.BBallAgain;
+package AnotherStart.BBallAgain.dto;
 
 public enum Positions {
 

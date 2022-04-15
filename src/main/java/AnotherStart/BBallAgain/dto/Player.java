@@ -1,4 +1,4 @@
-package AnotherStart.BBallAgain;
+package AnotherStart.BBallAgain.dto;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
@@ -12,7 +12,7 @@ import java.util.List;
 public class Player {
     @Id
     private String id;
-    @Indexed
+    @Indexed(unique = true)
     private String name;
     private List<Positions> positions;
     //private List<Season> seasons;
